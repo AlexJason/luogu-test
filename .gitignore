@@ -31,5 +31,5 @@
 *.out
 *.app
 
-empty.cpp
-own
+code.cpp
+.vscode
