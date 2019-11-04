@@ -1,0 +1,90 @@
+# Alex Cui's Code Style Rules 3.4 (For clang-format)
+# Copyright (c) 2018-2019 Alex Cui.
+# Licensed by CC BY-NC-SA 4.0
+# This guide is based on Google C++ Style Guide
+---
+Language: Cpp
+BasedOnStyle: Google
+#DisableFormat:
+AccessModifierOffset: -4
+#AlignAfterOpenBracket:
+#AlignConsecutiveAssignments:
+#AlignConsecutiveDeclarations:
+#AlignEscapedNewlines:
+#AlignOperands:
+AlignTrailingComments: false
+#AllowShortBlocksOnASingleLine:
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: None
+#AllowShortIfStatementsOnASingleLine:
+#AllowShortLambdasOnASingleLine:
+#AllowShortLoopsOnASingleLine:
+#AlwaysBreakAfterReturnType:
+#AlwaysBreakBeforeMultilineStrings:
+#AlwaysBreakTemplateDeclarations:
+#BinPackArguments:
+#BinPackParameters:
+BreakBeforeBraces: Custom
+BraceWrapping:
+#  AfterCaseLabel:
+#  AfterClass:
+#  AfterControlStatement:
+#  AfterEnum:
+#  AfterFunction:
+#  AfterNamespace:
+#  AfterStruct:
+#  AfterUnion:
+#  AfterExternBlock:
+  BeforeCatch: true
+  BeforeElse: true
+#  IndentBraces:
+#  SplitEmptyFunction:
+#  SplitEmptyRecord:
+#  SplitEmptyNamespace:
+#BreakBeforeBinaryOperators:
+#BreakBeforeTernaryOperators:
+#BreakConstructorInitializers: #
+#BreakInheritanceList: #
+#BreakStringLiterals:
+ColumnLimit: 80
+#CommentPragmas:
+#CompactNamespaces:
+#ConstructorInitializerAllOnOneLineOrOnePerLine:
+#ConstructorInitializerIndentWidth:
+#ContinuationIndentWidth:
+#DerivePointerAlignment:
+#ExperimentalAutoDetectBinPacking:
+#ExperimentalAutoDetectBinPacking:
+#FixNamespaceComments:
+#ForEachMacros:
+#TypenameMacros:
+#IndentCaseLabels:
+IndentPPDirectives: None
+IndentWidth: 4
+#IndentWrappedFunctionNames:
+#KeepEmptyLinesAtTheStartOfBlocks:
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+#PointerAlignment:
+#SortIncludes:
+#SortUsingDeclarations:
+#SpaceAfterCStyleCast:
+#SpaceAfterLogicalNot:
+#SpaceAfterTemplateKeyword:
+#SpaceBeforeAssignmentOperators:
+#SpaceBeforeCpp11BracedList:
+#SpaceBeforeCtorInitializerColon:
+#SpaceBeforeInheritanceColon:
+#SpaceBeforeParens:
+#SpaceBeforeRangeBasedForLoopColon:
+#SpaceInEmptyParentheses:
+SpacesBeforeTrailingComments: 1
+#SpacesInAngles:
+#SpacesInCStyleCastParentheses:
+#SpacesInContainerLiterals:
+#SpacesInParentheses:
+#SpacesInSquareBrackets:
+Standard: Cpp11
+TabWidth: 4
+UseTab: false
+
