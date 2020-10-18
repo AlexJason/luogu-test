@@ -35,3 +35,6 @@ _*.*
 *.in
 *.out
 .vscode
+t0.cpp
+t1.cpp
+t2.cpp
