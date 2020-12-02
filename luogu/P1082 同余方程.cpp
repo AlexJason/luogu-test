@@ -8,9 +8,8 @@ void exgcd(int a, int b, int &x, int &y) {
         return;
     }
     else {
-        exgcd(b, a % b, x, y);
-        int t = y;
-        y = x - a / b * y, x = t;
+        exgcd(b, a % b, y, x);
+        y -= x * (a / b);
     }
 }
 
